@@ -1,0 +1,39 @@
+.app-heading {
+  font-weight: bold;
+  color: #171f46;
+  font-size: 22px;
+}
+.app-date {
+  font-weight: bold;
+  color: #b5b7c4;
+}
+.li-container {
+  border-radius: 8px;
+  border: 2px solid #b5b7c4;
+  margin-bottom: 20px;
+}
+.heading-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.star {
+  background-color: white;
+  border: none;
+  align-self: center;
+}
+.app-card {
+  padding: 10px;
+}
+.star:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .app-heading {
+    font-weight: bold;
+    color: #171f46;
+    font-size: 22px;
+  }
+}
